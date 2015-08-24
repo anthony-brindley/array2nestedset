@@ -215,7 +215,8 @@ $json = '[
 ]';
 
 
-print '<h2>Json String</h2>';
+print '<p>Translate a multi dimensional array, coming from nestable.js (http://dbushell.github.io) to a flat nested set model array with left, right and parent.</p>';
+print '<h3>Json String</h3>';
 print '<p>As it comes from the nestable js plugin</p>';
 
 print '<pre>';
@@ -227,7 +228,7 @@ $array 	= json_decode($json, true);
 // translate array to nested set flat array with left, right, level
 $turn 	= recursiveChildren($array);
 
-print '<h2>translated to a PHP array</h2>';
+print '<h3>translated to a PHP array</h3>';
 print '<p>This can no get used to update the nested set menu tree.</p>';
 
 print '<pre>';
