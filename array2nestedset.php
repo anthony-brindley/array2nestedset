@@ -228,8 +228,8 @@ $array 	= json_decode($json, true);
 // translate array to nested set flat array with left, right, level
 $turn 	= recursiveChildren($array);
 
-print '<h3>translated to a PHP array</h3>';
-print '<p>This can no get used to update the nested set menu tree.</p>';
+print '<h3>Translated to a PHP array</h3>';
+print '<p>This can now get used to update the nested set menu tree.</p>';
 
 print '<pre>';
 print_r($turn);
